@@ -1,0 +1,14 @@
+package serc1111;
+
+public class Oper1 {
+
+	public static void main(String[] args) {
+
+		byte result = byteValue + byteValue;
+		
+		int result = 5 + byteValue; 
+		float result = 5 + floatValue; 
+		
+	}
+
+}
