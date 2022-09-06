@@ -22,7 +22,7 @@ public class Oper1 {
 		int a= 20, b=30, c; //대입연산 
 		System.out.println(a);
 		//prt();
-		c = a+ b;
+//		c = a+ b;
 		//운용방식 1 : +ab -> pre(fix) order (전위)
 		//운용방식 2 : ab+ -> post(fix) order (후위)
 		//운용방식 3 : a+b -> in(fix) order (중위)
