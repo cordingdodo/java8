@@ -1,0 +1,19 @@
+package src2;
+
+import java.util.Scanner;
+
+public class Condition1 {
+
+	public static void main(String[] args) {
+		System.out.print("점수 입력: ");
+		Scanner sc = new Scanner (System.in);
+		int num = sc.nextInt(); //여기서 short는 2바이트라 작아서 안됨
+		if(num>=80) {
+			System.out.println("합격");
+		} else {
+			System.out.println("불합격");
+		}
+		sc.close();
+	}
+
+}
