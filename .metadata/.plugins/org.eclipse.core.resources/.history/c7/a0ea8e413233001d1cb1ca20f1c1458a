@@ -53,14 +53,6 @@ public class Condition2 {
 	if(ep>=70 || pg>=70 || db>=70) pan="합격";
 	System.out.println(pan);
 	
-	String des="없음";
-	if(ep>=90 && pg>=90 && db>=90) des="과목우수";
-	System.out.println(des);
-	
-	System.out.println(""+name+ "님의 총점은" +tot+ "이며, 평균은" +avg+ "이고, "+pan+"하셨으며, 비고는" +des+ "입니다"); 
-	}
-	
-}
 	
 	
 	

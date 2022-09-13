@@ -17,13 +17,12 @@ public class Condition3 {
 		int tot = ep+pg+db; //반복문 총점
 		double avg = (float) tot /3; //평균 구함
 		
-		String pan = "탈락";
+		String pan = "날락";
 		if(ep>=70 && pg>=70 && db>=70) pan="합격"; //판정
 		String des = "";
 		if(ep>=90 || pg>=90 || db>=90) des="과목우수"; //비고
 		
-		System.out.println(""+name+ "님의 총점은" +tot+"점이며, 평균은"+avg+"이고," +pan+"하셨으며, 비고는" +des+"입니다.");		
-		
+		System.out.println(+tot+ "님의 총점은" +tot+"점이며, 평균은"+avg+"이고," +pan+"하셨으며, 비고는" +des+"과목우수입니다.");		
 	}	
 		
 	

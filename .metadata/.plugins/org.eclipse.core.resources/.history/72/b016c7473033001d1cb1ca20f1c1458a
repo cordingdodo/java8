@@ -22,8 +22,7 @@ public class Condition3 {
 		String des = "";
 		if(ep>=90 || pg>=90 || db>=90) des="과목우수"; //비고
 		
-		System.out.println(""+name+ "님의 총점은" +tot+"점이며, 평균은"+avg+"이고," +pan+"하셨으며, 비고는" +des+"입니다.");		
-		
+		System.out.println( +name+ "님의 총점은" +tot+"점이며, 평균은"+avg+"이고," +pan+"하셨으며, 비고는" +des+"입니다.");		
 	}	
 		
 	
