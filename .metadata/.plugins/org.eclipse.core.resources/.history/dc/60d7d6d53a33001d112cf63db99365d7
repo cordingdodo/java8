@@ -20,12 +20,11 @@ public class Condition4 {
 //		default:
 //			실행문n;
 	
-		Scanner scanner = new Scanner(System.in);
-		int jum = scanner.nextInt();
+		Scanner sc = new Scanner(System.in);
+		int jum = sc.nextInt();
 		
 		System.out.println("점수는?");
-		
-	switch(rank) {
+	switch (rank) {
 	case "A":
 		goods="100년 산삼 세트";
 		break;

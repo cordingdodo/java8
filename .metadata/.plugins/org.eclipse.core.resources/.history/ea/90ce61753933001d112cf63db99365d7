@@ -1,7 +1,5 @@
 package src2;
 
-import java.util.Scanner;
-
 public class Condition4 {
 
 	public static void main(String[] args) {
@@ -20,17 +18,13 @@ public class Condition4 {
 //		default:
 //			실행문n;
 	
-		Scanner scanner = new Scanner(System.in);
-		int jum = scanner.nextInt();
-		
-		System.out.println("점수는?");
-		
-	switch(rank) {
+
+	switch (rank) {
 	case "A":
-		goods="100년 산삼 세트";
+		goods="100년 산삼 세트"
 		break;
 	case "B":
-		goods="한우갈비세트";
+		goods="한우갈비세트"
 		break;
 	case "C":
 		goods="백화점 상품권";

@@ -24,9 +24,8 @@ public class Condition4 {
 		int jum = scanner.nextInt();
 		
 		System.out.println("점수는?");
-		
 	switch(rank) {
-	case "A":
+	case A:
 		goods="100년 산삼 세트";
 		break;
 	case "B":
