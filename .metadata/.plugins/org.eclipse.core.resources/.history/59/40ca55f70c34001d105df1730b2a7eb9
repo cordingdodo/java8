@@ -13,8 +13,8 @@ public class Loop8 {
 		 */
 		//int i=0;
 		for(int i=2;i<10;i++){//(+i+ "구구단 처음 수");
-			for(int j=1;j<10;j++);
-				System.out.println(+i+"*"+j+"="+(i*j));
+			for(int j=1;j<10;j++){
+				System.out.println(+i+"*"+j+"=");
 			}
 		}
 	}
