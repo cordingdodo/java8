@@ -17,29 +17,29 @@ public class Condition4 {
 //			실행문2:
 //			break;
 //		......
-//		default:
-//			실행문n;
-	
-		Scanner scanner = new Scanner(System.in);
-		int jum = scanner.nextInt();
-		
-		System.out.println("점수는?");
-		
-	switch(rank) {
-	case "A":
-		goods="100년 산삼 세트";
-		break;
-	case "B":
-		goods="한우갈비세트";
-		break;
-	case "C":
-		goods="백화점 상품권";
-		break;
-	case "D":
-		goods="문화상품권";
-		break;
-	default:
-		goods="한입만";
-	}
-	System.out.println("당신의 점수는 " +jum+ "점이며, 등급은" +rank+ "이고, 상품은"  +goods+ "입니다.");
+////		default:
+////			실행문n;
+//	
+//		Scanner scanner = new Scanner(System.in);
+//		int jum = scanner.nextInt();
+////		
+////		System.out.println("점수는?");
+//		
+//	switch(rank) {
+//	case "A":
+//		goods="100년 산삼 세트";
+//		break;
+//	case "B":
+//		goods="한우갈비세트";
+//		break;
+//	case "C":
+//		goods="백화점 상품권";
+//		break;
+//	case "D":
+//		goods="문화상품권";
+//		break;
+//	default:
+//		goods="한입만";
+//	}
+//	System.out.println("당신의 점수는 " +jum+ "점이며, 등급은" +rank+ "이고, 상품은"  +goods+ "입니다.");
 
