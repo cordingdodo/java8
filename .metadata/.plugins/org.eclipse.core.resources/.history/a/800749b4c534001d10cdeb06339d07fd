@@ -1,0 +1,19 @@
+package src4;
+
+public class homework1_4 {
+
+	public static void main(String[] args) {
+		// 별 찍기
+		int i=5;
+		
+		for(i=1;i<=5;i++);
+			string pan="*";
+			System.out.println(i*"*");
+			
+		}
+
+	}
+}
+	
+
+

@@ -1,0 +1,12 @@
+package src4;
+
+public class homework7 {
+
+	public static void main(String[] args) {
+		boolean run = true;
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package src4;
+
+public class homework1_4 {
+
+	public static void main(String[] args) {
+		// 주사위
+		for (int i=1; i<=6 , i++) {
+			sys
+		}
+
+	}
+
+}

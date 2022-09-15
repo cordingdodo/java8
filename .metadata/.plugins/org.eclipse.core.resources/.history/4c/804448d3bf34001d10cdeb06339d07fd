@@ -1,0 +1,14 @@
+package src4;
+
+public class homework1_4 {
+
+	public static void main(String[] args) {
+		// 별 찍기
+
+			System.out.printl("*\n");
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package src4;
+
+import java.util.Scanner;
+
+public class homework7 {
+
+	public static void main(String[] args) {
+		boolean run = true;
+		int money=0, balance = 0;
+		Scanner sc = new Scanner(System.in);
+		boolean run = true ;
+		
+
+	}
+
+	sc.close();
+}
+}
