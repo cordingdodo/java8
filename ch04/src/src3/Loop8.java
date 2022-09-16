@@ -15,18 +15,24 @@ public class Loop8 {
 		for(int i=2;i<10;i++){//(+i+ "구구단 처음 수");
 			for(int j=1;j<10;j++){
 				System.out.println(+i+"*" +j+ "="+(i*j));
+				
 			}
-			System.out.println();
-			System.out.println("수열 - 팩토리얼의 합계 출력");
+
+			System.out.println( );
+			//System.out.println("수열 - 팩토리얼의 합계 출력");
 			
-			int mul=1;
-			long res=0;
-			for(int a=1;a<=10;a++){
-				mul*=a;
-				res+=mul;
+
 		}
-			System.out.println(res);
-		}
+		int mul=1;
+		long res=0;
+		for(int a=1;a<=10;a++){
+			mul*=a;
+			res+=mul;
+	}
+		System.out.println(res);
 	}
 
+
+
 }
+

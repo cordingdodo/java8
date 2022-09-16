@@ -1,0 +1,16 @@
+package src1;
+
+import java.util.Calendar;
+
+public class Ref2 {
+
+	public static void main(String[] args) {
+		Week today = null; //today가 열거형임
+		
+		Calendar cal = Calendar.getInstance();
+		int w = cal;get(Calendar.DAY_OF_WEEK);
+		System.out.println(w);
+
+	}
+
+}
