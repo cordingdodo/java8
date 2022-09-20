@@ -40,7 +40,8 @@ public class Member2 {
 		mc.login("kdy", "1004");
 		mc.info();
 		
-		mc.login("null", "null");
+		mc.login("null", "null")
+		;
 		
 	}
 

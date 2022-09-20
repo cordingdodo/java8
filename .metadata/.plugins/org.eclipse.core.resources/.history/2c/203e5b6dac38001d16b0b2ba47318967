@@ -1,0 +1,19 @@
+package se02;
+
+public class Carex {
+
+	public static void main(String[] args) {
+		Car car1 = new Car("롤스로이스", "가솔린", 4000);
+		car1.bootUP(); //시동켬
+		car1.speedUp();//스피드 높여
+		car1.speedUp();//스피드 또높여
+		car1.speedUp();
+		car1.speedUp();
+		car1.speedUp();
+		car1.speedUp();
+		System.out.println("현재 속도: " +car1.speedinfo());
+		car1.speedPrint(); //위아래 똑같음 근데 밑에거가 더 간결하고 쉬움
+
+	}
+
+}
