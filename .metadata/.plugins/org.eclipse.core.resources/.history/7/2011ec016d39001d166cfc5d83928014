@@ -1,0 +1,66 @@
+package se02;
+
+public class Student {
+	String name;
+	int kor;
+	int eng;
+	int mat;
+			
+	public Student () {}
+	public Student (String name) {this.name = name;}	
+	public Student(String name, int kor, int eng, int mat) { //소스콘스트럭쳐
+		this.name = name; this.kor = kor; this.eng = eng; this.mat = mat;
+	}
+					
+	public int calcTot () {
+		return kor+eng+mat;
+	}
+	public double calcAvg () {
+		double avg = (float)(kor+eng+mat)/3;
+		return avg;
+	}
+	public String calcHak() {
+		String hak = ""; //hak 초기화
+		double avg=this.calcAvg();
+		if(avg>=90) {
+			hak="A";
+		} else if(avg>=80){
+			hak="B";
+		} else if(avg>=70){
+			hak="C";
+		} else {
+			hak="D";
+		}
+		return hak;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getKor() {
+		return kor;
+	}
+	public void setKor(int kor) {
+		this.kor = kor;
+	}
+	public int getEng() {
+		return eng;
+	}
+	public void setEng(int eng) {
+		this.eng = eng;
+	}
+	public int getMat() {
+		return mat;
+	}
+	public void setMat(int mat) {
+		this.mat = mat;
+	}
+	
+	
+	
+	
+
+}
