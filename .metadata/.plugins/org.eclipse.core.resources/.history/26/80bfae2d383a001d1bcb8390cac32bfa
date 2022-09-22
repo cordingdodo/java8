@@ -1,0 +1,36 @@
+package se02;
+
+public class Board {
+	private int number;
+	private String title;
+	private String subject;
+	private String writer;
+	private String date;
+	
+	public Board() {}
+	public Board(int number) {this.number=number;}
+	public Board(int number, String title, String subject, String writer,
+			String date) {
+		this.number = number;
+		this.title = title;
+		this.subject = subject;
+		this.writer = writer;
+		this.date = date;
+	}
+	public String boardWrite() {
+		this.number=number;
+		this.title=title;
+		this.subject=subject;
+		this.writer=writer;
+		this.date=date;
+	}
+	
+	public String boardUpdate() {
+	
+	}	
+		
+		
+	
+	
+	
+

@@ -2,20 +2,22 @@ package se02;
 
 public class Product {
 	private String pid;
+//  접근제한자	수정자 데이터타입 필드명
 	private String pname;
 	private int amount;
 	private int price;
 	private String img;
 	
 	public Product () {}
-	public Product (String pid) {this.pid=pid;}
+	public Product (String pid, String pname) {this.pid=pid; this.pname=pname;}
 	public Product(String pid, String pname, int amount, int price, String img) {
 		this.pid = pid;
 		this.pname = pname;
 		this.amount = amount;
 		this.price = price;
 		this.img = img;
-	}
+	} //->얘네는 객체 생성을 위한 것 매개변수 뭐 받을 거임? 이렇게 만들 수 있음 이뜻
+	
 	public String getPid() {
 		return pid;
 	}
@@ -48,23 +50,21 @@ public class Product {
 	}
 	
 	public int calcMoney () {
-		int tot=amount*price;
-		return tot;
-		
+		return amount*price;
 	}
 	
 	public String calcRank () {
-		String rank="저가";
-		if(this.price>100000){
+		String rank="";
+		if(price>=100000){
 			System.out.println("고가");
-		}else if(this.price>50000) {
+		}else if(price>50000) {
 			System.out.println("중저가");
-		}
+		}else rank="저가";
 		return rank;
 	}
 		
 	public void printImg (String img) {
-		System.out.println(this.img);
+		System.out.println("이미지: "+img);
 	}
 		
 	
