@@ -1,0 +1,16 @@
+package sec4;
+
+public class Printer {
+	public void printIn(int data){
+		System.out.println(data);
+	}
+	public void printIn(boolean  data){
+		System.out.println(data);
+	}
+	public void printIn(double data){
+		System.out.println(data);
+	}
+	public void printIn(String data){
+		System.out.println(data);
+	}
+}

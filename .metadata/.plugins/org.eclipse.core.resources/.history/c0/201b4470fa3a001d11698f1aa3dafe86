@@ -1,0 +1,8 @@
+package kr.co.thejoeun.view;
+/도메인 반대로 가기
+public class Carview {
+
+	public class CarView {
+		CarCtrl ctrl = new Carctrl();
+	}
+}
