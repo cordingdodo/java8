@@ -4,7 +4,7 @@ public class Printer {
 	public void println(int data){
 		System.out.println(data);
 	}
-	public void println(boolean  data){
+	public void println(boolean data){
 		System.out.println(data);
 	}
 	public void println(double data){

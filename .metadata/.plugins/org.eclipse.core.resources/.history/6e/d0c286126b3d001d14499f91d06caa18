@@ -1,0 +1,15 @@
+package sec2;
+
+class A ()
+class B extends A {}
+class C extends A {}
+//b랑 c는 형제임 
+class D extends B {}
+class E extends C {}
+public class PromotionEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}
