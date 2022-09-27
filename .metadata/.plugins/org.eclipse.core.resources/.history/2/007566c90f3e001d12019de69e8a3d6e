@@ -1,0 +1,40 @@
+package sec4;
+
+public class HighStudent extends Student {
+	private int jum4;
+	private int jum5;
+
+	public int getJum4() {
+		return jum4;
+	}
+
+	public void setJum4(int jum4) {
+		this.jum4 = jum4;
+	}
+
+	public int getJum5() {
+		return jum5;
+	}
+
+	public void setJum5(int jum5) {
+		this.jum5 = jum5;
+	}
+
+	@Override
+	int computeTot(int jum1, int jum2, int jum3) {
+		return jum1+jum2+jum3+jum4+jum5;
+	}
+
+	@Override
+	double computeAvg(int jum1, int jum2, int jum3) {
+		return 0;
+	}
+
+	@Override
+	public String computeHak(int jum1, int jum2, int jum3) {
+		return super.computeHak(jum1, jum2, jum3);
+	}
+
+	
+
+}

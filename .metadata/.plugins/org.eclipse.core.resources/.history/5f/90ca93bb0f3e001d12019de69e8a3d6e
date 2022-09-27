@@ -1,0 +1,27 @@
+package sec4;
+
+public class HighStudent extends Student {
+	private int jum4;
+	private int jum5;
+
+	@Override
+	int computeTot(int jum1, int jum2, int jum3) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	double computeAvg(int jum1, int jum2, int jum3) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String computeHak(int jum1, int jum2, int jum3) {
+		// TODO Auto-generated method stub
+		return super.computeHak(jum1, jum2, jum3);
+	}
+
+	
+
+}
