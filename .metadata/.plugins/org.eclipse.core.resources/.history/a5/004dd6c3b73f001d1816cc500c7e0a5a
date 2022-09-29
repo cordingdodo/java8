@@ -1,0 +1,9 @@
+package sec1;
+public class Anonymous {
+	Vehicle field = new Vehicle() {@override
+		pulblic void run () {
+		System.out.println("자전거가 달립니다.");
+	}
+	}
+
+}

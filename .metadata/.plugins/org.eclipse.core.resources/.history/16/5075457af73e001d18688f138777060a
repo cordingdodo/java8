@@ -1,0 +1,21 @@
+package sec1;
+
+public interface RemotControl {
+	public int MAX_VOLDME =10;
+	public int MIN_VOLDME =0;
+
+
+	//추상메서드
+	public void turnOn();
+	public void turnOff();
+	public void setVolume(int volume);
+	
+	//디폴트 메서드
+	default void setMute(boolean mute){
+		if(mute) { System.out.println("** 무음 작동 **");
+		} else {
+			System.out.println("**무음 해제**");
+		}
+	}
+	
+}

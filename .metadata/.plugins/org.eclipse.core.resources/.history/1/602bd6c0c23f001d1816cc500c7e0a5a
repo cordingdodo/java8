@@ -1,0 +1,8 @@
+package sec1;
+public class Exception6 { //데이터 로딩시
+	public static void main(String[] args) {
+
+
+	}
+
+}

@@ -5,6 +5,8 @@ public class cast111 {
 		int a=1004, b; //4byte
 		short c, d; //2byte
 		long e, f; //
+		
+	}
 		//b = a;
 		//c = a;
 		//c=a;

@@ -1,0 +1,9 @@
+package sec1;
+public class OuterClass {
+	class Inner{
+	}
+	class Inner2 {
+		
+	}
+	
+}
