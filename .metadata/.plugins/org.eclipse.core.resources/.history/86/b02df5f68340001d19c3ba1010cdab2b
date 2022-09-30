@@ -1,0 +1,11 @@
+package sec2;
+
+import java.util.Comparator;
+
+public class UtilObjectsEx1 implements Comparator<Student> {
+	public static void main(String[] args) {
+		
+
+	}
+
+}

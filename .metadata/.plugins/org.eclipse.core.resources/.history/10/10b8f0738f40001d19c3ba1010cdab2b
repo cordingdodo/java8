@@ -1,0 +1,8 @@
+package sec2;
+public class SystemEx4 { //컴퓨터 정보 알기
+	public static void main(String[] args) {
+		System.out.println(System.getProperty("os.name"));
+	}
+	
+
+}

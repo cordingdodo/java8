@@ -1,0 +1,21 @@
+package sec2;
+
+public class Student {
+	int sno; 
+	String sname;
+	public Student() {}
+	public Student(int sno) {this.sno=sno;}
+	public Student(int sno, String sname){
+		this.sno = sno;
+		this.sname =sname;
+	
+
+Student s1;
+Student s2 = new Student(4, "정진석");
+Student s3 = new Student(5, "지각생");
+if(Objects.isNull(s1.sname)){
+	
+}
+
+}
+}

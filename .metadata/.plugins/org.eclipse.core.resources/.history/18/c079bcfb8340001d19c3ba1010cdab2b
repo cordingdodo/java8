@@ -1,0 +1,11 @@
+package sec2;
+
+import java.util.Comparator;
+
+public class UtilObjectsEx1 implements Comparator<Student> { //구현체 있어야 해서 에러
+	public static void main(String[] args) {
+		
+
+	}
+
+}

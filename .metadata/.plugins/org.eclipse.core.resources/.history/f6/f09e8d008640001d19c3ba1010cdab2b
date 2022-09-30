@@ -1,0 +1,12 @@
+package sec2;
+import java.util.Objects;
+public class UtilObjectsEx2 {
+	public static void main(String[] args) {
+		Student s1 = new Student(1, "김도연");
+		Student s2 = new Student(2, "박주언");
+		Student s3 = new Student(3, "박채령");
+		System.out.println(s1); //16진수
+		System.out.println(s1.hashCode()); //10진수
+		System.out.println(Objects.hasCode(s1));
+	}
+}
