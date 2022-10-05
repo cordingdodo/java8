@@ -1,0 +1,19 @@
+package sec4;
+public class StringEx3 {
+	public static void main(String[] args) {
+		String str1 = new String();
+		str1+="김도연";
+		str1+=" ";
+		str1+="박평화";
+		str1+=" ";
+		str1+="박주언";
+		System.out.println("출력1: "+str1);
+		//->비효율적임!
+		
+		StringBuffer str2 = new StringBuffer("");
+		
+		
+
+	}
+
+}

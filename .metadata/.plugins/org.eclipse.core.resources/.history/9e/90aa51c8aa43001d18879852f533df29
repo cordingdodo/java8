@@ -1,0 +1,12 @@
+package sec4;
+
+import java.util.Arrays;
+
+public class ArrayEx1 {
+	public static void main(String[] args) {
+	char[] arr= {'j', 'a', 'v','a', '　', 'o','b','j','e','c','t'};
+	
+	char[] arr2=Arrays.copyOf(arr, arr.length);
+	
+	}
+}

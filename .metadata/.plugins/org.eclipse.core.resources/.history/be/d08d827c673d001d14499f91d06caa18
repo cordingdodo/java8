@@ -1,9 +1,0 @@
-package sec2;
-
-public class DmbPhone extends CellPhone {
-	int ch;
-	final static String COMPANY="애플";
-	
-	
-
-}

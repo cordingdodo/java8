@@ -1,0 +1,36 @@
+package sec1;
+//비선점형: 쓰레드객체.run()
+//선점형: 쓰레드객체.start()
+
+public class ThreadEx2 {
+	public static void main(String[] args) {
+		Thread th1 = new Thread(new ThreadWithRunnalbe);
+	}
+	
+	}
+
+class ThreadWithClass2 extends Thread {
+	public void run(){
+		for(int i=0;i<5;i++){
+		System.out.println(this.getName()); //메소드
+		try {
+			Thread.sleep(10); //10->0.01초 mmseconde (밀리세컨드)단위
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} 
+		}
+	}
+}
+class ThreadWithRunnable2 implements Runnable { //runnable은 인터페이스라서 반드시 오버라이딩하여 해당 메서드 구현부로 기술해야함
+	@Override
+	public void run() {
+		for(int i=0;i<5;i++){
+			System.out.println(Thread.currentThread().getName()); //현재 실행중인 쓰레드의 이름 출력
+			try {
+				Thread.sleep(10); //반드시 넣으라는 게 아니라 너무 빨리 실행되어서 딜레이를 넣는 것임 
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

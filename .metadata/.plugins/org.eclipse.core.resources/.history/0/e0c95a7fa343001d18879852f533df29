@@ -1,0 +1,21 @@
+package sec4;
+public class StringEx2 {
+	public static void main(String[] args) {
+		String name = "김도연&박주언,박주앙몬드,김도죠르디,안도연-박주주";
+		
+		//문자열을 배열 요소로 형변환
+		String[] name = name.split("&|,|-");
+		
+//		for(int i=0;i<name.length;i++){
+//			System.out.println(name[i]);
+//		}
+		for(String irum : name){
+			System.out.println(irum);
+		}
+		String nick = "김도연/박주언/박주주/김도욘";
+		StringTokenizer irums = new StringToeknizer(name, "/");
+		
+
+	}
+
+}

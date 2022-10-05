@@ -1,0 +1,9 @@
+package sec4;
+public class ArrayEx1 {
+	public static void main(String[] args) {
+	char[] arr= {'j', 'a', 'v','a',' ' 'o','b','j','e','c','t');
+	
+	
+	}
+
+}

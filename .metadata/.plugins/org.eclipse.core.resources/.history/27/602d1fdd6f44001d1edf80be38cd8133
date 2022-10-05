@@ -1,0 +1,11 @@
+package sec1;
+//비선점형: 쓰레드객체.run()
+//선점형: 쓰레드객체.start()
+//쓰레드 추가설정: 
+public class ThreadEx2 {
+	public static void main(String[] args) {
+		Thread th1 = new Thread(new ThreadWithRunnable());
+		Thread th2 = new Thread(new ThreadWithRunnable)();
+	}
+	
+	}

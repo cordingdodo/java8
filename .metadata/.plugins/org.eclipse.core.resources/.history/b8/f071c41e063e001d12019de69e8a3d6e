@@ -1,7 +1,0 @@
-package sec3;
-
-public class HankookTire extends Tire {
-	public HankookTire(String location, int maxRotation) {
-		super(maxRotation, location); //내용 맞아야 함
-	}
-}

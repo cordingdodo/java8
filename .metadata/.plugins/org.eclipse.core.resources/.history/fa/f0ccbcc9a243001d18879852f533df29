@@ -1,0 +1,10 @@
+package sec4;
+public class StringEx2 {
+	public static void main(String[] args) {
+		String name = "김도연&박주언, 박주앙몬드,김도죠르디, 안도연-박주주";
+		
+		String[] name = name.split("");
+
+	}
+
+}

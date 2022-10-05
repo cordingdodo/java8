@@ -1,4 +1,0 @@
-package sec4;
-public class MiddelStudent extends Student {
-
-}
