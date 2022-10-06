@@ -1,0 +1,13 @@
+package sec1;
+@FunctionalInterface
+interface Calc {
+	public void method1(); //추상체라서 매개변수 등 없어도 OK
+}
+
+public class Lamda2 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

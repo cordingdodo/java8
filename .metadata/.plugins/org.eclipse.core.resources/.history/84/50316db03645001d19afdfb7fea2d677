@@ -1,0 +1,21 @@
+package sec1;
+@FunctionalInterface
+interface Calc {
+	public void method1(); //추상체라서 매개변수 등 없어도 OK
+	//public void method2(int x, int y); // 하나의 기능만을 정의할 수 있음
+}
+@FunctionalInterface
+interface Calc2 {
+	public void method2(int x, int y);
+}
+@FunctionalInterface
+interface Calc3 {
+	public int method2();
+}
+public class Lamda2 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

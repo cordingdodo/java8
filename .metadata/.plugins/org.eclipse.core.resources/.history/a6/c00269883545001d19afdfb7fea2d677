@@ -1,0 +1,6 @@
+package sec1;
+public class LambdaEx1 {
+	public method1(int x, y){
+		return x+y;
+	}
+}

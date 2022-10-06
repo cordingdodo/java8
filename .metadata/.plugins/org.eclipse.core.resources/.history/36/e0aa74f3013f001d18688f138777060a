@@ -1,7 +1,0 @@
-package sec3;
-public class Dbjob {
-	void insert();
-	void update();
-	void delete();
-
-}

@@ -1,0 +1,22 @@
+package sec1;
+//메소드의 매개변수나 리턴 타입일 일번화(변동화)하는 제네릭 메소드 클래스 //String, Integer인데 Integer,Integer 쓰고 싶다!
+public class ClassEx3 {
+	public static void main(String[] args) {
+	Box<Integer> box1 = Util.<Integer>boxing(100); //첫번째 방법
+	//Box<String> box0 = Util.<String>boxint("김도연");
+	int
+	
+	}
+	
+}
+class Util {
+	public static <T> Box<T> boxing(T t) { //리턴타입 범용화 //리턴타입 클래스이름 메소드 매개변수
+		Box<T> box = new Box<T>();
+		
+	}
+}
+class Box<T>{ //리턴타입 클래스 범용화
+	private T t;
+	public T get() {return t;}
+	public void set(T t) {this.t =t;}
+}
