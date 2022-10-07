@@ -1,0 +1,19 @@
+package sec1;
+import java.util.List;
+import java.util.Scanner;
+public class ListEx2 {
+	public static void main(String[] args) {
+		//학생 리스트 선언
+		
+		//작업번호 : 1. 학생 추가, 2. 학생 검색, 3. 학생 수정, 4. 학생 삭제, 5.종료
+	}
+	static void insert (Student s){ //학생추가
+		
+	}
+	static List<Student> select(int i){
+		Scanner sc = new Scanner(System.in);
+		
+		return s;
+		
+	}
+}

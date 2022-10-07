@@ -1,0 +1,26 @@
+package sec1;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
+
+public class CollectionEx3 {
+	public static void main(String[] args) {
+		List lst = new ArrayList();
+		lst = new Vector();
+		lst = new LinkedList();
+		
+		ArrayList lst2 = new ArrayList();
+		//lst2 = new Vector(); //형제끼리 형변환 불가능
+		
+		method1(lst);
+		method1(lst2);
+		//method2(lst); //lst는 list로 선언된 것이라 메소드의 매개변수는  arraylist로 선언되었기 때문에 형변환 불가함
+		//lst는 list로 만들어진 것이라 arraylist 사용안됨
+		method2(lst2); //타입이 같아서 가능 
+	}
+	static void method1(List ls){
+	}	
+	static void method2(ArrayList ls){
+}
+}

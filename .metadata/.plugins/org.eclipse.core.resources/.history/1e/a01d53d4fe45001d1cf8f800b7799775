@@ -1,0 +1,12 @@
+package sec1;
+import java.util.ArrayList;
+import java.util.List;
+public class ListEx1 {
+	public static void main(String[] args) {
+		List<String> lst1 = new ArrayList<String>(); //문자열리스트라는 이야기
+		lst1.add("김도도");
+		lst1.add("박주주");
+		System.out.println(lst1);
+	}
+
+}
