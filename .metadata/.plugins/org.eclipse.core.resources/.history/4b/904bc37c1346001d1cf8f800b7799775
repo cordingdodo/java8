@@ -1,0 +1,25 @@
+package sec3;
+//한 건의 데이터를 항목 이름의 중복없이 항목 이름과 해당 값을 가져올때 사용함
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.Properties;
+import java.util.TreeMap;
+
+public class MapEx1 {
+	public static void main(String[] args) {
+		Map<String, Integer> map1 = new HashMap<>();
+		Map<String, String> map2 = new Hashtable<>();
+		Map<String, Integer> map3 = new TreeMap<>();
+		Properties map4 = new Properties();
+		
+		map1.put("num", 1);
+		map1.put("kor", 100);
+		map1.put("eng", 99);
+		map1.put("mat", 95);
+		map1.put("mat", 95); //중복되면 값 하나만 인식
+		System.out.println(map1);
+
+	}
+
+}

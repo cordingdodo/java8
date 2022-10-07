@@ -1,0 +1,18 @@
+package sec1;
+import java.util.List;
+import java.util.Vector;
+import sec1.Board;
+public class ListEx3 {
+	public static void main(String[] args) {
+		List<Board> bList = new Vector<Board>(); //<>생략가능인듯 ㅎ
+		//글쓰기 - 글 추가 (요소 추가) add
+		bList.add(new Board("제목1", "내용1", "김도도"));
+		bList.add(new Board("제목2", "내용2", "박주주"));
+		bList.add(new Board("제목3", "내용3", "김주주"));
+		bList.add(new Board("제목4", "내용4", "박도도"));
+		bList.add(new Board("제목5", "내용5", "응챠리카"));
+		//글삭제
+		bList.remove(3);
+	}
+
+}

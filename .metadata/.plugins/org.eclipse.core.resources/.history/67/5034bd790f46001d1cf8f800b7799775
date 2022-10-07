@@ -1,0 +1,21 @@
+package sec3;
+import java.util.HashSet;
+import java.util.Set;
+public class SetEx1 {
+	public static void main(String[] args) {
+		Set<String> set1 = new HashSet<String>();
+		set1.add("김도도");
+		set1.add("김도치");
+		set1.add("김도얀");
+		set1.add("김도연");
+		set1.add("김도연");
+		set1.add("김도연");
+		set1.add("김도연");
+		
+		set1.add("김도치치");
+		set1.add("김도멍");
+		set1.add("박주앙몬드");
+		System.out.println(set1); //중복허용x
+	}
+
+}

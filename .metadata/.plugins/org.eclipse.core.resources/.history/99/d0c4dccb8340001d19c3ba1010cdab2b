@@ -1,8 +1,0 @@
-package sec2;
-public class UtilObjectsEx1 implements Comparator<Student> {
-	public static void main(String[] args) {
-		
-
-	}
-
-}
